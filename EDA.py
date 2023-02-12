@@ -24,3 +24,33 @@ df.Sales.hist()
 
 
 df.Profitability.hist()
+
+
+
+df.columns
+
+
+
+print(df.corr())
+
+
+
+
+sns.regplot(df['Profitability'],df['Range'])
+
+
+
+
+
+sns.regplot(df['Monthly payment'],df['Range'])
+
+
+
+
+
+sns.regplot(df['Monthly payment'],df['Profitability'])
+
+
+
+
+
